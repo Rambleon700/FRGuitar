@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fretwork — Music Theory for Guitarists</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-container">
+      <a href="./index.html" class="brand-logo">fretwork<span class="dot">.</span></a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="./index.html" class="nav-link active">Home</a></li>
+          <li class="nav-item dropdown">
+            <a href="./lessons/index.html" class="nav-link">Lessons ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="./lessons/fretboard-basics.html" class="dropdown-link"><strong>01 / Fretboard Basics</strong><small>Start here</small></a></li>
+              <li><a href="./lessons/chord-building.html" class="dropdown-link"><strong>02 / Chord Building</strong><small>Triads & intervals</small></a></li>
+              <li><a href="./lessons/scales-and-keys.html" class="dropdown-link"><strong>03 / Scales & Keys</strong><small>Make melodies</small></a></li>
+            </ul>
+          </li>
+          <li><a href="#playground" class="nav-link">Playground</a></li>
+          <li><a href="./about/index.html" class="nav-link">Our Approach</a></li>
+          <li><a href="./lessons/fretboard-basics.html" class="btn-primary">Start Here</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Music theory for the rest of us</p>
+        <h1>Less guessing.<br>More <span>playing.</span></h1>
+        <p class="lead">You don’t need a music degree. Just a guitar and a little curiosity. Make sense of the notes, chords, and sounds already under your fingers.</p>
+        <div style="display:flex; gap:1rem;">
+          <a href="./lessons/fretboard-basics.html" class="btn-primary">Find your first notes</a>
+          <a href="./lessons/index.html" class="btn-secondary">Explore all lessons</a>
+        </div>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=1000&q=85" alt="Guitarist playing acoustic guitar">
+      </div>
+    </section>
+
+    <section>
+      <p class="eyebrow">01 / Your Way In</p>
+      <h2>Start with the strings. Connect the dots.</h2>
+      <div class="card-grid">
+        <a href="./lessons/fretboard-basics.html" class="card">
+          <span class="card-num">01</span>
+          <h3>Meet your fretboard</h3>
+          <p>Six string names, twelve notes, and a pattern that repeats across the neck.</p>
+        </a>
+        <a href="./lessons/chord-building.html" class="card">
+          <span class="card-num">02</span>
+          <h3>Get inside a chord</h3>
+          <p>Discover why three simple notes can sound bright, dark, or beautifully complex.</p>
+        </a>
+        <a href="./lessons/scales-and-keys.html" class="card">
+          <span class="card-num">03</span>
+          <h3>Find notes that fit</h3>
+          <p>Turn a scale from a finger exercise into a map for creating your own solos.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="playground" class="playground-box">
+      <p class="eyebrow" style="color:var(--accent);">02 / Fretboard Playground</p>
+      <h2 style="color:white;">Same note. Different place.</h2>
+      <p style="color:#a8a29e; margin-top:0.5rem;">The same note name shows up across the guitar fretboard in different octaves. Here are all the E notes in standard tuning across the first 5 frets:</p>
+      
+      <div class="fretboard-visual">
+        <div class="fret marker"><span style="position:absolute; top:4px; font-size:0.7rem; color:#a8a29e;">Open String 6</span></div>
+        <div class="fret"></div>
+        <div class="fret"></div>
+
+        <div class="fret"></div>
+        <div class="fret"></div>
+        <div class="fret marker"><span style="position:absolute; top:4px; font-size:0.7rem; color:#a8a29e;">String 2, Fret 5</span></div>
+      </div>
+      <a href="./lessons/fretboard-basics.html" class="btn-primary">Learn the whole fretboard layout →</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div>
+        <a href="./index.html" class="brand-logo">fretwork<span class="dot">.</span></a>
+        <p style="color:var(--text-muted); margin-top:0.5rem;">A little theory. A lot of possibility.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about/index.html">Our Approach</a></li>
+          <li><a href="#playground">Playground</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Lessons</h4>
+        <ul>
+          <li><a href="./lessons/fretboard-basics.html">01. Fretboard Basics</a></li>
+          <li><a href="./lessons/chord-building.html">02. Chord Building</a></li>
+          <li><a href="./lessons/scales-and-keys.html">03. Scales & Keys</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Fretwork. Built for self-taught guitarists.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
